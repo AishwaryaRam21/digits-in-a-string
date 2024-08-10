@@ -1,0 +1,9 @@
+def count_digits(s):
+    digit_count = 0
+    for char in input_string:
+        if '0' <= char <= '9':
+            digit_count += 1
+    return digit_count
+    
+input_string = "Aishwarya 21"
+print("number of digits:" ,count_digits(input_string)) 
